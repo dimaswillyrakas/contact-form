@@ -1,0 +1,144 @@
+* {
+    font-family: roboto;
+}
+
+body {
+    background: #080808;
+    font-family: roboto;
+    color: white;
+}
+
+.main {
+    margin: 100px 80px;
+}
+
+.contact-form {
+    height: 500px;
+    margin-top: 100px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-center h2 {
+    margin-bottom: 30px;
+    font-size: 48px;
+}
+
+.text-center p {
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 540px;
+    max-width: 100%;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.form-contents {
+    margin-top: 0px;
+}
+
+.form-content-item h4 {
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 25px;
+    margin-bottom: 25px;
+}
+
+.form-content-item {
+    float: left;
+    width: 50%;
+    transition: all 0.5s;
+    /* background-color: #696155;
+    ------------------------------------------ */
+}
+
+.form-content-item p  a{
+    margin-top: 30px;
+    transition: all 0.5s;
+    color: #999;
+}
+
+.form-content-item p a:hover {
+    color: white;
+}
+
+.fa {
+    margin-right: 15px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    float: left;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.social {
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+
+p.small {
+    font-size: 12px;
+    padding-top: 20px;
+    color: #999;
+}
+
+input[type=email],
+input[type=text],
+input[type=submit],
+textarea,
+button {
+    margin: auto;
+    width: 90%;
+    background: none;
+    padding: 0 20px;
+    /* float: left; */
+    height: 50px;
+    border: 1px solid #555;
+    border-radius: 25px;
+    /* transition: all .15s ease; */
+    color: #fffefe;
+    line-height: 1.2;
+    letter-spacing: .025em;
+    display: block;
+    margin-bottom: 20px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+textarea {
+    padding-top: 20px;
+    height: 110px;
+    resize: none;
+    /* width: 100%; */
+}
+
+button {
+    width: 30%;
+    cursor: pointer;
+}
+
+button a {
+    color: #999;
+    transition: all 0.5s;
+}
+
+button a:hover {
+    color: white;
+}
+
+button:hover {
+    background-color: #131313;
+    transition: all 0.5s;
+}

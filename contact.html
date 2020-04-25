@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contactresponsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Kontak</title>
+</head>
+<body>
+    <div class="main">
+        <div class="contact-form">
+            <div class="text-center">
+                <h2>Hubungi Kami</h2>
+                <p>Jangan sungkan untuk bertanya seputar web programming kepada kami melalui akun media sosial maupun email.</p>
+            </div>
+            <div class="form-contents">
+                <div class="form-content-item">
+                    <h4>INFORMASI KONTAK</h4>
+                    <p><a href="skype:#"><i aria-hidden="true" class="fa fa-address-card"></i>Kelompok C28 - Progate - DTS 2020</a></p>
+                    <p><a href="tel:#"><i aria-hidden="true" class="fa fa-phone"></i>+628123456789</a></p>
+                    <p><a href="mailto:#"><i aria-hidden="true" class="fa fa-envelope"></i>C28_DTS20@gmail.com</a></p>
+                    <p>Jam kerja 08:00 - 15:00 WIB</p>  
+                    <h4>Media Sosial</h4>
+                    <ul class="social">
+                        <li><a href="#"><i aria-hidden="true" class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i aria-hidden="true" class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#"><i aria-hidden="true" class="fa fa-instagram"></i></a></li>
+                        <li><a href="#"><i aria-hidden="true" class="fa fa-twitter"></i></a></li>
+                    </ul>
+                    <p class="small">© 2020 C28-DTS20</p>
+                </div>
+                <div class="form-content-item">
+                    <h4>KIRIM PERTANYAANMU</h4>
+                    <form action="send.php" method="POST">
+                        <input type="text" name="name" placeholder="Nama" required="">
+                        <input type="email" name="email" placeholder="Email" required="">
+                        <textarea name="message" placeholder="Pesan" required=""></textarea> 
+                        <button class="btn" type="submit"><a href="#">Kirim</a></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
